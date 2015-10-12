@@ -1,0 +1,9 @@
+@mixin wrapper--1 {
+    @include container();
+    padding: 3em;
+}
+
+@mixin wrapper--2 {
+    @include container();
+    padding: 0 3em;
+}

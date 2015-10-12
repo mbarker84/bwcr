@@ -1,0 +1,49 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: $black;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.86em;
+    line-height: 1.2;
+    margin-bottom: .2em;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin-bottom: .3em;
+}
+
+h3 {
+    font-size: 1.69em;
+    margin-bottom: .3em;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.4;
+    margin-bottom: .8em;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+em {
+    font-style: italic;
+}
+
+p.small {
+    font-size: 0.8em;
+}
