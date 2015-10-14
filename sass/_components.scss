@@ -8,8 +8,8 @@ img {
 /* Navigation */
 
 .nav__logo {
-    background-color: $color1;
     height: 5em;
+    margin-bottom: 1.4em;
 }
 
 .main-nav__options {
@@ -19,10 +19,13 @@ img {
             text-decoration: none;
             display: block;
             padding: .7em .8em;
-            color: $color2;
+            color: $green-dk;
         }
         &:last-child a {
-            color: $color4;
+            color: $background;
+        }
+        i {
+            margin-left: .5em;
         }
     }
 }
@@ -31,8 +34,7 @@ a.nav__button {
     text-decoration: none;
     display: block;
     padding: .8em;
-    background-color: $color2;
-    color: $color4;
+    background-color: $green-md;
     border-radius: .3em;
     min-width: 8em;
     text-align: center;
@@ -49,9 +51,11 @@ a.nav__button {
 a.header__button {
     text-decoration: none;
     display: block;
-    padding: .8em;
-    background-color: $color2;
-    color: $color4;
+    padding: 1em .8em;
+    background-color: lighten($green-lt, 10%);
+    color: $black;
+    font-weight: 700;
+    font-size: 1.1em;
     border-radius: .3em;
     width: 12em;
     text-align: center;
@@ -67,6 +71,18 @@ a.header__button {
 
 .help__item {
     padding: 1em;
+    position: relative;
+    h3 {
+        background-color: $green-dk;
+        color: $white;
+        padding: .3em .5em;
+        margin-bottom: -.5em;
+        position: absolute;
+        top: 0;
+        left: 0;
+        letter-spacing: .03em;
+        box-shadow: 1px 1px 5px transparentize($black, .5);
+    }
 }
 
 .help__img {
@@ -81,11 +97,15 @@ a.news__button {
     text-decoration: none;
     display: block;
     padding: .6em;
-    color: $color2;
-    background-color: $color3;
+    color: darken($background, 65%);
+    background-color: darken($background, 20%);
+    font-weight: 700;
     border-radius: .3em;
     width: 12em;
     text-align: center;
+    i {
+        margin-left: .5em;
+    }
 }
 
 /* Shop */
