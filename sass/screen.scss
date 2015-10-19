@@ -5,7 +5,7 @@
 $susy: (
     columns: 12,
     container: 1200px,
-    gutters: 0.25,
+    gutters: 0.4,
     global-box-sizing: border-box
 );
 
@@ -24,18 +24,6 @@ body {
 }
 
 .main-header {
-    background-color: $color1;
-}
-
-.news__wrapper {
-    background-color: darken($color4, 7%);
-}
-
-.main-footer {
-    background-color: $color5;
-}
-
-.shop {
     background-color: $color1;
 }
 

@@ -73,11 +73,11 @@ ul.social {
 }
 
 .news__col--1 {
-    @include span(8);
+    @include span(7);
 }
 
 .news__col--2 {
-    @include span(4 last);
+    @include span(5 last);
 }
 
 /* Shop */
